@@ -77,6 +77,10 @@ hr {
   text-align: left;
 }
 
+.mountain-pic img {
+  width: 65%;
+}
+
 .top-cloud {
   position: absolute;
   right: 300px;
