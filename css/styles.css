@@ -77,8 +77,21 @@ hr {
   text-align: left;
 }
 
-.mountain-pic {
+.img-container {
+  display: flex;
+  justify-content: center;
+  justify-items: center;
   width: 65%;
+  margin: auto;
+
+}
+  
+.img-container img {
+    object-fit: contain;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
 }
 
 .top-cloud {
