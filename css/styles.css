@@ -1,0 +1,263 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  /*font-family: 'Silkscreen', cursive;*/
+  font-size: 5.625rem;
+  /* 16px = 100% = 1em - 90px/ em = 90px / 16px = 5.625em  */
+  font-family: "Sacramento", cursive;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  padding-bottom: 10px; /*siempre chequea los subtitulos para añadir padding y no se vean pegados entre si */
+}
+
+h1,
+h2 {
+  color: #66bfbf;
+}
+
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h3 {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+}
+
+p {
+  line-height: 2;
+}
+
+hr {
+  color: #eaf6f6;
+  border-style: dotted none none;
+  border-width: 5px;
+  width: 5%;
+  margin: 100px auto;
+}
+
+
+.top-container {
+  background-color: #e8f9fd;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+
+
+.middle-container {
+  background-color: #fff;
+  margin: 100px 0; 
+}
+
+.my-description {
+  width: 50%;
+  margin: auto;
+  text-align: justify;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px 0 20px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.drawing-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skating-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-message {
+  width: 30%;
+  margin: 25px auto 30px;
+}
+
+
+.btn {
+  display: inline-block;
+  margin: 25px auto;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 20px;
+  background: #66bfbf;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  text-decoration: none;
+}
+
+.footer-link {
+  margin: 20px; /*los elementos en linea solo usan margen right and left*/
+}
+
+.footer-link:hover{
+  color: #eaf6f6; 
+}
+
+.copyright {
+  color: #eaf6f6;
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+
+
+.free-icons li {
+  text-align: left;
+  list-style:square inside;
+}
+
+.icon-info {
+  text-align: left;
+  color: #66bfbf;
+  margin: 20px;
+}
+
+
+@media (max-width:500px) {
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+
+
+
+  .top-container, .middle-container, .bottom-container {
+    max-width: 1000px;
+    margin: auto;
+  }
+
+  .top-container {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+
+  }
+
+  .top-container h1 {
+    height: 30vh;
+    font-size: 3.5rem;
+
+  }
+
+  .top-container h2 {
+    height: 30vh;
+  }
+
+
+  .top-container .top-cloud {
+    position: absolute;
+    top: 20px;
+  }
+
+  .top-container .bottom-cloud {
+    position: absolute;
+    top: 20px;
+    
+  }
+
+  .middle-container {
+    margin: 50px 0; 
+  }
+
+  .contact-me h3 {
+    font-size: 1rem;
+  }
+
+  .contact-message {
+    width: 50%;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .bottom-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #66bfbf;
+    color: white;
+    height: 70vh;
+ }
+
+
+
+
+}
+
+
+
+
+
+
+/*.coding-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}*/
+
+/*.skating-description {
+  clear: right;
+} esto es como antifloat, lo que hace anular el elemento float dependiendo de donde esta dirigido*/
