@@ -3,10 +3,10 @@ body {
   margin: 0;
   text-align: center;
   font-family: "Merriweather", serif;
+  max-width: 100%;
 }
 
 h1 {
-  margin: 50px auto 0 auto;
   /*font-family: 'Silkscreen', cursive;*/
   font-size: 5.625rem;
   /* 16px = 100% = 1em - 90px/ em = 90px / 16px = 5.625em  */
@@ -49,11 +49,15 @@ hr {
   margin: 100px auto;
 }
 
-
+/* TOP CONTAINER */
 .top-container {
   background-color: #e8f9fd;
   position: relative;
-  padding-top: 100px;
+  padding: 3% 15% 0;
+}
+
+.top-container img {
+  object-fit: cover;
 }
 
 .top-cloud {
