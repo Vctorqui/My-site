@@ -41,24 +41,22 @@ p {
   line-height: 2;
 }
 
-hr {
-  color: #eaf6f6;
-  border-style: dotted none none;
-  border-width: 5px;
-  width: 5%;
-  margin: 100px auto;
-}
+
+
 
 /* TOP CONTAINER */
+
 .top-container {
   background-color: #e8f9fd;
   position: relative;
   padding: 3% 15% 0;
 }
 
+
 .top-container img {
   object-fit: cover;
 }
+
 
 .top-cloud {
   position: absolute;
@@ -74,28 +72,37 @@ hr {
 
 
 
+/* MIDDLE CONTAINER 
 .middle-container {
-  background-color: #fff;
-  margin: 100px 0; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 7% 15%;
+}*/
+
+.middle-container {
+  padding: 7%;  
+  margin: 0;
+
 }
 
-.my-description {
-  width: 50%;
-  margin: auto;
-  text-align: justify;
+
+
+/* skils*/
+
+.skills {
+  background-color: #e8f9fd;
+  padding: 3% 15% 3%;
 }
 
-.bottom-container {
-  background-color: #66bfbf;
-  padding: 40px 0 20px;
-}
 
 .skill-row {
-  width: 50%;
+  width: 70%;
   margin: 100px auto;
   text-align: left;
 }
-
 .drawing-img {
   width: 25%;
   float: left;
@@ -108,9 +115,16 @@ hr {
   margin-left: 30px;
 }
 
+
+/* CONTACT ME */
+
+.contact-me {
+  padding: 3% 15% 3%;
+}
+
 .contact-message {
   width: 30%;
-  margin: 25px auto 30px;
+  margin: 0 auto 20px;
 }
 
 
@@ -130,10 +144,16 @@ hr {
 }
 
 .btn:hover {
-  background: #30e3cb;
+  color: #fff;
+  background: #11999e;
   text-decoration: none;
 }
 
+/* BOTTOM CONTAINER */
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 40px 0 20px;
+}
 .footer-link {
   margin: 20px; /*los elementos en linea solo usan margen right and left*/
 }
@@ -148,18 +168,6 @@ hr {
   font-weight: bold;
   font-size: 0.75rem;
   padding: 20px 0;
-}
-
-
-.free-icons li {
-  text-align: left;
-  list-style:square inside;
-}
-
-.icon-info {
-  text-align: left;
-  color: #66bfbf;
-  margin: 20px;
 }
 
 
@@ -186,17 +194,3 @@ hr {
   }
 
 }
-
-
-
-
-
-/*.coding-img {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}*/
-
-/*.skating-description {
-  clear: right;
-} esto es como antifloat, lo que hace anular el elemento float dependiendo de donde esta dirigido*/
