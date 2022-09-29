@@ -47,7 +47,7 @@ hr {
   border: 5px dotted #aaa;
   border-bottom-style: none;
   width: 5%;
-  margin: 50px auto;
+  margin: 25px auto;
 }
 
 
@@ -63,6 +63,7 @@ hr {
   justify-content: center;
   align-items: center;
   align-content: center;
+  padding-top: 3%;
 
 }
 
@@ -148,18 +149,27 @@ hr {
 /* CONTACT ME */
 
 .contact-me {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 20px;
   padding: 7% 15%;
+}
+
+.contact-me h2 {
+  padding-bottom: 0;
 }
 
 .contact-message {
   width: 60%;
-  margin: 0 auto 20px;
+ /* margin: 0 auto 20px; */
 }
 
 
 .btn {
   display: inline-block;
-  margin: 25px auto;
   -webkit-border-radius: 28;
   -moz-border-radius: 28;
   border-radius: 28px;
@@ -177,11 +187,6 @@ hr {
   background: #11999e;
   box-shadow: 4px 6px 20px 0 #66bfbf;
 }
-
-
-
-
-
 
 
 
